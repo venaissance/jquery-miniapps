@@ -34,6 +34,19 @@ a {
     text-decoration: none;
 }
 
+#app1 {
+}
+#app1 button {
+  border: 1px solid blueviolet;
+}
+#app1 button:hover {
+  background-color: yellow;
+}
+#app1 button:active {
+  box-shadow: inset -2px -2px 3px rgba(255, 255, 255, 0.6),
+    inset 2px 2px 3px rgba(0, 0, 0, 0.6);
+}
+
 #app2 {
 }
 #app2 .tab-bar {
@@ -80,6 +93,10 @@ a {
   height: 25vw;
   border: 1px solid black;
   border-radius: 50%;
+  font-size: 10px;
+}
+#app4 .circle > .text {
+  margin: 9.5vw 4vw;
 }
 
 #app4 .circle.active {
@@ -96,4 +113,4 @@ a {
 }
 
 
-/*# sourceMappingURL=main.ba47f3ef.css.map */
+/*# sourceMappingURL=main.4b5daa09.css.map */
