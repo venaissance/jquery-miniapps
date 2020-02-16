@@ -1,0 +1,99 @@
+body {
+  overflow: auto;
+  display: flex;
+  flex-wrap: wrap;
+}
+section {
+  border: 1px solid #eeeeee;
+  width: 50vw;
+  height: 50vh;
+}
+
+/* css reset */
+* {
+    box-sizing: border-box;
+}
+
+*:before,
+*:after {
+    box-sizing: border-box;
+}
+
+* {
+    margin: 0;
+    padding: 0;
+}
+
+ul,
+ol {
+    list-style: none;
+}
+
+a {
+    color: inherit;
+    text-decoration: none;
+}
+
+#app2 {
+}
+#app2 .tab-bar {
+  display: flex;
+}
+#app2 .tab-bar > li {
+  border: 1px solid grey;
+  width: 50%;
+}
+#app2 .tab-bar > li.selected {
+  background-color: orange;
+  color: white;
+}
+#app2 .tab-content > li {
+  display: none;
+}
+#app2 .tab-content > li.active {
+  display: block;
+}
+
+#app3 {
+}
+
+#app3 .square {
+  margin-top: 10vw;
+  margin-left: 10vw;
+  height: 10vw;
+  width: 10vw;
+  border: 1px solid gray;
+  transition: transform 1s;
+}
+
+#app3 .square.active {
+  transform: translateX(15vw);
+}
+
+#app4 {
+}
+
+#app4 .circle {
+  margin-left: 5vw;
+  margin-top: 5vw;
+  width: 25vw;
+  height: 25vw;
+  border: 1px solid black;
+  border-radius: 50%;
+}
+
+#app4 .circle.active {
+  animation: changeColor 1s infinite alternate linear;
+}
+
+@keyframes changeColor {
+  0% {
+    background-color: aquamarine;
+  }
+  100% {
+    background-color: purple;
+  }
+}
+
+
+/*# sourceMappingURL=main.ba47f3ef.css.map */
